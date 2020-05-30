@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import Navigation from './pages/navigation';
+import Router from './pages/router';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './components/footer';
+
+// import { library } from '@fortawesome/fontawesome-svg-core'
+// import { faCheckSquare, faCoffee, faClock } from '@fortawesome/free-solid-svg-icons';
+// import { faFacebookF } from '@fortawesome/free-brands-svg-icons' 
+
+// library.add(faFacebookF); 
+
+// library.add( faCheckSquare, faCoffee, faClock )
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navigation/>
+      <Router />
+      <Footer />
     </div>
   );
 }
