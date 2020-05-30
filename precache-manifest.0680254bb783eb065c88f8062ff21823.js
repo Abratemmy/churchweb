@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "84b16475367f0f1d129a45a0a9d4f90f",
+    "revision": "90f0abb0070dca84f704fa24a3a484f1",
     "url": "/churchweb/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/churchweb/static/css/2.ae9f94b9.chunk.css"
   },
   {
-    "revision": "b5ad9cca2d8c25b00a40",
+    "revision": "53fbef06de41cf96c5fe",
     "url": "/churchweb/static/css/main.6439040c.chunk.css"
   },
   {
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/churchweb/static/js/9.91f6e9ad.chunk.js"
   },
   {
-    "revision": "b5ad9cca2d8c25b00a40",
-    "url": "/churchweb/static/js/main.772daff7.chunk.js"
+    "revision": "53fbef06de41cf96c5fe",
+    "url": "/churchweb/static/js/main.d59fc1b2.chunk.js"
   },
   {
     "revision": "9f9067531f69406baf1c",
