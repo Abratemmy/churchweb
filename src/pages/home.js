@@ -19,7 +19,7 @@ export class Home extends Component {
                         <div className="feature-content">
                             <div className="row">
                                 <div className="col-lg-4 col-md-6 col-sm-12 feature-column">
-                                        <div className="single-feature-content" >
+                                        <div className="single-feature-content container" >
                                             <div className="icon-box"><i class="flaticon-dollar"></i></div>
                                             <div className="link-goal"><a href="">Our Goal</a></div>
                                             <div className="text">Our goal is to encourage a diligent study of the bible and other christian literature and to encourage the member to use the knowledge so gain for their christian advancement</div>
@@ -28,8 +28,7 @@ export class Home extends Component {
                                     
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-12 feature-column">
-                                
-                                        <div className="single-feature-content" style={{background:('images/resource/feature-1.jpg')}}>
+                                        <div className="single-feature-content container">
                                             <div className="icon-box"><i class="flaticon-dollar"></i></div>
                                             <div className="link-goal"><a href="">Our Mission</a></div>
                                             <div className="text">We are to spread the gospel of Jesus Christ and to promote the knowlegge of christians through faith and truth.</div>
@@ -40,7 +39,7 @@ export class Home extends Component {
                                 </div>
 
                                 <div className="col-lg-4 col-md-6 col-sm-12 feature-column">
-                                    <div className="single-feature-content" style={{background:('images/resource/feature-1.jpg')}}>
+                                    <div className="single-feature-content container">
                                         <div className="icon-box"><i class="flaticon-dollar"></i></div>
                                         <div className="link-goal"><a href="">Membership</a></div>
                                         <div className="text">All members of the church would be encouraged to be born again christians and full of the Holy Spirit</div>

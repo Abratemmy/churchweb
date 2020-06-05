@@ -46,7 +46,7 @@ export class Background extends Component {
                {photos.map(photos=>{
                     return<div className="sliding-image " key={photos.id}> 
                         <img src={photos.url} width="100%" height="650" alt="error" className="bgimage"/>
-                        <div className="c1style container" style={{position: 'absolute', top:'30%', paddingLeft:'5%'}}>
+                        <div className="c1style container" style={{position: 'absolute', top:'30%'}}>
                             <div className="homeheader container backgroundtitle" style={{ color:'white'}}>Kingdom of <span style={{color:'#ff5e14',fontSize:'70px'}}>Christ Church </span></div>
                             <div className="content">
                                 <div className="slider-wrapper">
