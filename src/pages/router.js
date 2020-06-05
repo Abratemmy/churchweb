@@ -1,14 +1,18 @@
 import React from 'react';
 import {Switch, Route } from 'react-router-dom';
 import Home from './home.js';
-import Gallery from './gallery.js';
+import Pastorgallery from './gallery.js';
 import About from './about.js';
+import Contact from './contact.js';
+import Audio from './audio.js';
 
 const Router = ()=>(
     <Switch>
         <Route exact path = '/' component = {Home} />
         <Route exact path ='/about' component={About} />
-        <Route exact path = '/gallery' component = {Gallery} />
+        <Route exact path = '/pastorgallery' component = {Pastorgallery} />
+        <Route exact path = '/contact' component = {Contact} />
+        <Route exact path = '/audio' component = {Audio} />
         
     </Switch>
 )

@@ -174,7 +174,7 @@ body{
 .banner-bg{
   width:100%;height: 400px;
   margin: 0px auto;
-  background:linear-gradient(180deg, rgba(27, 27, 27, 0.443), rgba(31, 30, 30, 0.443)),   url('https://cdn.pixabay.com/photo/2016/04/02/21/01/world-1303628__340.png');
+  background:linear-gradient(180deg, rgba(27, 27, 27, 0.443), rgba(31, 30, 30, 0.443)),   url('https://cdn.pixabay.com/photo/2011/12/13/14/28/earth-11008__340.jpg');
   background-position: 120% 0px;
   /* background-size: cover; */
   background-repeat: no-repeat;
@@ -186,10 +186,157 @@ body{
 
   }
   to{
-    background-position: -20% 0px;
+    background-position: 20% 0px;
   }
 }
+/* css for pastors gallery */
+.pastorgallery{
+  background: url('https://cdn.pixabay.com/photo/2016/01/06/22/55/the-annunciation-1125149__340.jpg');
+  /* position: relative; */
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+  justify-items: center;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.bannertext{
+  position: relative;
+  display: block;
+  font-size: 62px;
+  line-height: 52px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-weight: 700;
+  top:50%;
+}
+.portfolio-section .single-portfolio-content {
+  position: relative;
+  margin-bottom: 30px;
+}
+.gallery-portfolio img {
+  width: 100%;
+  transform: scale(1.0);
+  transition: all 5s ease;
+}
+.pastors .text {
+  position: absolute;
+  left: 0px;
+  bottom: 50px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 31px;
+  z-index: 2;
+  padding: 0px 30px 30px 40px;
+  transition: all 2000ms ease;
+}
+.gallery-img-box img:hover{
+  transform:scale(1.1);
+  transition:1s;
+}
+.gallery-img-box{
+  position: relative;
+  overflow:hidden;
+  border-radius: 50%;
+}
+.gallery-portfolio .text:hover{
+  opacity: 10;
+}
 
+/* css for contact */
+.contact-section .contact-title {
+  position: relative;
+  display: block;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: 'Playfair Display', serif;
+  color: #222222;
+  font-weight: 700;
+  margin-bottom: 42px;
+}
+.contact-section .contact-info .left-column {
+  padding: 70px 60px 70px 60px;
+}
+.contact-icons{
+  color:#ff5e14;
+  font-size: 30px;
+}
+.icon-box{
+  padding-bottom: 26px;
+}
+.contact-section .contact-info .contactaddress {
+  position: relative;
+  border: 1px solid #e5e5e5;
+  transition: all 500ms ease;
+}
+.contact-section .contact-info .right-column {
+  position: relative;
+  padding: 35px 10px 45px 60px;
+  margin-bottom: 27px;
+}
+.contact-section .contact-info .contactaddress:hover {
+  border: 1px solid #ff5e14;
+}
+.contact-section .contact-form-area .form-group label {
+  position: relative;
+  display: block;
+  color: #222222;
+  margin-bottom: 3px;
+}
+.inputfield{
+  position: relative;
+  width: 100%;
+  height: 44px;
+  padding: 10px 20px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 12px;
+  transition: all 500ms ease;
+}
+.inputfield:focus{
+  border: 1px solid #ff5e14;
+}
+.audioMp3{
+  background: url('https://cdn.pixabay.com/photo/2015/03/26/09/58/headphones-690685__340.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.aboutpage{
+  background: url('https://colorlib.com/preview/theme/spring/images/bg_2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width:100%;
+}
+.sermon-header{
+  font-family: 'Playfair',serif;
+  font-size: 50px;
+}
+.sermon-topic{
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 25px;
+}
+.sermon-topic:hover{
+  text-decoration: none;
+  color: rgb(37, 37, 37);
+}
+.audiosermon span{
+  display: block;
+  padding-bottom: 20px;
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(110, 110, 110);
+}
+
+.audiosermon .spanlink{
+  color:#db5213;
+}
+.audiosermon .spanlink{
+  text-decoration: none;
+}
 /* .cours2{
 	margin-top:30px;
 }

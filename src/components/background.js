@@ -3,7 +3,7 @@ import './background.css';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Spring } from 'react-spring';
+// import { Spring } from 'react-spring';
 
 const photos=[
     {
@@ -15,13 +15,13 @@ const photos=[
     {
         id: 2,
         name: 'photo 2',
-        url: "https://cdn.pixabay.com/photo/2017/09/04/09/38/cross-2713354__340.jpg",
+        url: "https://colorlib.com/preview/theme/christian/images/bg_1.jpg",
         text:"hello"
     },
     {
         id: 3,
         name: 'photo 3',
-        url: "https://cdn.pixabay.com/photo/2017/10/04/18/31/church-2817154__340.jpg",
+        url: "https://colorlib.com/preview/theme/christian/images/bg_2.jpg",
         text:"hello"
     }
 ]

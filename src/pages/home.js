@@ -22,8 +22,7 @@ export class Home extends Component {
                                         <div className="single-feature-content" >
                                             <div className="icon-box"><i class="flaticon-dollar"></i></div>
                                             <div className="link-goal"><a href="">Our Goal</a></div>
-                                            <div className="text">We are constantly creating events to reach out to more creative kids. Our goal is to train 10,000 African kids at no cost in the space of 10 years.
-                                                you can be a part of this exciting and life changing journey with us!</div>
+                                            <div className="text">Our goal is to encourage a diligent study of the bible and other christian literature and to encourage the member to use the knowledge so gain for their christian advancement</div>
                                             
                                         </div>
                                     
@@ -33,8 +32,8 @@ export class Home extends Component {
                                         <div className="single-feature-content" style={{background:('images/resource/feature-1.jpg')}}>
                                             <div className="icon-box"><i class="flaticon-dollar"></i></div>
                                             <div className="link-goal"><a href="">Our Mission</a></div>
-                                            <div className="text">We are constantly creating events to reach out to more creative kids. Our goal is to train 10,000 African kids at no cost in the space of 10 years.
-                                                you can be a part of this exciting and life changing journey with us!</div>
+                                            <div className="text">We are to spread the gospel of Jesus Christ and to promote the knowlegge of christians through faith and truth.</div>
+                                            <div className="text">To raise the moral standard of member and to encourage them to live a pure and holy life</div>
                                         
                                         </div>
                                     
@@ -43,9 +42,8 @@ export class Home extends Component {
                                 <div className="col-lg-4 col-md-6 col-sm-12 feature-column">
                                     <div className="single-feature-content" style={{background:('images/resource/feature-1.jpg')}}>
                                         <div className="icon-box"><i class="flaticon-dollar"></i></div>
-                                        <div className="link-goal"><a href="">Our Mission</a></div>
-                                        <div className="text">We are constantly creating events to reach out to more creative kids. Our goal is to train 10,000 African kids at no cost in the space of 10 years.
-                                            you can be a part of this exciting and life changing journey with us!</div>
+                                        <div className="link-goal"><a href="">Membership</a></div>
+                                        <div className="text">All members of the church would be encouraged to be born again christians and full of the Holy Spirit</div>
                                     
                                     </div>
                                     
@@ -60,9 +58,9 @@ export class Home extends Component {
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-sm-12 about-column">
                             <div className="homeheader"><span className="homeheader-span">About</span> us</div>
-                            <p>Quisque ut urna posuere, gravida nisl eu, dictum diam. In hac habitasse platea dictumst. Phasellus egestas 
-                                dignissim tellus. Proin sit amet euismod lacus, in auctor nisl. Vestibulum rhoncus dui ut pellentesque congue. Mauris tristique erat et nulla tincidunt, in viverra urna pretium eu sagittis.
-                                 Rauris eleifend nisi justo, in volutpat magna scelerisque eget habitasse imperdiet elit eu nunc viverra.</p>
+                            <p>We, the <span className="">Kindom of christ church</span> under the divine leadership of our Lord and Saviour, Jesus Christ and direction
+                            of the Holy Spirit being fully determineed to reach the unreached with the gospel of our Lord Jesus Christ, and to practically live out his Holy life in accordance with the holyscripture do 
+                            hereby by our representatives seated in his assemblygive to ourselves the instruction.</p>
                             <div className="linkto text-center">
                                 <Link to="/about" className="button-primary">View more</Link>
                             </div>

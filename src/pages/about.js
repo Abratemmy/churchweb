@@ -4,7 +4,10 @@ export class About extends Component {
     render() {
         return (
             <div>
-                about
+                <div className="pastorgallery aboutpage" >
+                    <div className="container bannertext"> About us</div>
+                </div>
+                
             </div>
         )
     }
