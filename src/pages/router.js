@@ -9,6 +9,7 @@ import Audio from './audio.js';
 const Router = ()=>(
     <Switch>
         <Route exact path = '/churchweb' component = {Home} />
+        <Route exact path = '/' component = {Home} />
         <Route exact path ='/about' component={About} />
         <Route exact path = '/pastorgallery' component = {Pastorgallery} />
         <Route exact path = '/contact' component = {Contact} />
