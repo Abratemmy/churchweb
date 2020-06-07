@@ -1,8 +1,35 @@
 import React, { Component } from 'react';
 import { BsFillEnvelopeFill} from "react-icons/bs";
+// import axious from 'axious'
 import {FaRegAddressCard, FaPhone  } from 'react-icons/fa';
 
 export class Contact extends Component {
+    constructor(){
+        super()
+
+        this.state={
+            name:'',
+            email:'',
+            subject:'',
+            messages:''
+        }
+        this.handleChange= this.handleChange.bind(this)
+        this.handleSubmit = this.handleSubmit.bind(this)
+    }
+    handleChange = e =>{
+        this.setState({ [e.target.name]: e.target.value})
+    }
+    async handleSubmit(e){
+        e.preventDefault()
+        const{email, name, message, subject} = this.state
+
+        // const form = await axious.post('/api/form',{
+        //     name,
+        //     email,
+        //     subject,
+        //     message
+        // })
+    }
     render() {
         return (
             <div>
@@ -10,7 +37,7 @@ export class Contact extends Component {
                     <div className="container bannertext"> Contact us</div>
                 </div>
 
-                <section class="contact-section" style={{paddingBottom:'40px'}}>
+                <section className="contact-section" style={{paddingBottom:'40px'}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 col-md-12 col-sm-12 contact-column">
@@ -42,27 +69,26 @@ export class Contact extends Component {
                             <div className="col-lg-6 col-md-12 col-sm-12 contact-column">
                                 <div className="contact-form-area">
                                     <div className="contact-title">Send Us A Message</div>
-                                    <form id="contact-form" name="contact_form" class="default-form" action="https://tckzone.com/add-request" method="post">
-                                        <input type="hidden" name="_token" value="o9xEoIeBnpo1kgJQPEMiKhCCXEBPrTt3jTdKByox"/> 
-                                        <input type="hidden" name="_method" value="POST"/>
+                                    <form id="contact-form" name="contact_form" class="default-form" onSubmit={this.handleSubmit}>
+                                       
                                         <div className="row">
                                             <div className="form-group col-lg-6 col-md-6 col-sm-12">
                                                 <label>Name *</label>
-                                                <input type="text" name="name" value="" required="" className="inputfield"/>
+                                                <input type="text" name="name" value="" required="" className="inputfield" onChange={this.handleChange}/>
                                             </div>
                                             <div className="form-group col-lg-6 col-md-6 col-sm-12">
                                                 <label>Email *</label>
-                                                <input type="email" name="email" value="" required="" className="inputfield"/>
+                                                <input type="email" name="email" value="" required="" className="inputfield"onChange={this.handleChange}/>
                                             </div>
                                             <div className="form-group col-lg-12 col-md-12 col-sm-12">
                                                 <label>Subject</label>
-                                                <input type="text" name="subject" value="" required="" className="inputfield"/>
+                                                <input type="text" name="subject" value="" required="" className="inputfield"onChange={this.handleChange}/>
                                             </div>
                                             <div className="form-group col-lg-12 col-md-12 col-sm-12">
                                                 <label>Messsage</label>
-                                                <textarea name="message" required="" row="3" className="inputfield"></textarea>
+                                                <textarea name="message" required="" row="3" className="inputfield"onChange={this.handleChange}></textarea>
                                             </div>
-                                            <div classNAme="form-group col-lg-12 col-md-12 col-sm-12" style={{paddingLeft: '30px'}}>
+                                            <div className="form-group col-lg-12 col-md-12 col-sm-12" style={{paddingLeft: '30px'}}>
                                                 <button type="submit" class="theme-btn" data-loading-text="Please wait..." className="button-primary button-primary1">Submit</button>
                                             </div>
                                         </div>

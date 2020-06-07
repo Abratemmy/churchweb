@@ -18,8 +18,8 @@ export class Testimony extends Component {
         return (
             <div className="container-fluid testimony">
                 <div className="container text-center">
-                    <div className="homeheader" ><span className="homeheader-span">Our </span> Testimony</div>
-                    <p>Your donation can go far and god bless you</p>
+                    <div className="homeheader homeheader1" ><span className="homeheader-span">Our </span> Testimony</div>
+                    <p>Jesus is doing wonders in our midst. We overcome by the blood of the lamb and by the words of our testimony</p>
                 </div>
                 <div className="container">
                     <div className="testimonial-content">
@@ -33,7 +33,7 @@ export class Testimony extends Component {
                         <section className="testimony-slide">
                             <div className="container">
                                 <Slider {...testimonyslides} className="container slidecontainer">
-                                    <div className="sliding-testimony">
+                                    <div className="sliding-testimony container">
                                         <div className="text"> I want appreciate what God did in my life and my family. I was deliver from the power of darkness.Praise God
                                         </div>
 

@@ -15,11 +15,10 @@
     }
 }
 
-/* .content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}*/
+.slides{
+    background: -webkit-linear-gradient(to right, #141413, #0f0d0f, #20181e);
+    background: linear-gradient(to right, #413d37, #222122, hsl(0, 0%, 0%));
+}
 .slider-wrapper{
     font-size: 40px;
     font-weight: bold;
@@ -29,7 +28,6 @@
 } 
 .slider{
     height: 50px;
-    padding-left: 15px;
     overflow:hidden;
 }
 .slider div{

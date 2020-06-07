@@ -20,10 +20,10 @@ export class Blog extends Component {
             <div>
                  <div className="container-fluid text-center" style={{backgroundColor: 'rgb(37, 37, 37)', height:'500px', color: 'white'}}>
                     <div className="container">
-                        <div className="homeheader" style={{color:'white', paddingTop:'30px'}}>
+                        <div className="homeheader  homeheader1" style={{color:'white',}}>
                             <span className="homeheader-span">Our </span>latest <span className="homeheader-span">Blogs</span>
                         </div>
-                        <p>Mauris eleifend nisi justo, in volutpat magna scelerisque eget. Inter</p>
+                        <p>Learn more about God through our blog. Learn how to grow spiritually</p>
                     </div>
                 </div>
 

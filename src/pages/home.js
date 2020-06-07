@@ -20,8 +20,7 @@ export class Home extends Component {
                             <div className="row">
                                 <div className="col-lg-4 col-md-6 col-sm-12 feature-column">
                                         <div className="single-feature-content container" >
-                                            <div className="icon-box"><i class="flaticon-dollar"></i></div>
-                                            <div className="link-goal"><a href="">Our Goal</a></div>
+                                            <div className="link-goal"><a href=""><span className="link-goal-span"> Our </span> Goal</a></div>
                                             <div className="text">Our goal is to encourage a diligent study of the bible and other christian literature and to encourage the member to use the knowledge so gain for their christian advancement</div>
                                             
                                         </div>
@@ -29,8 +28,7 @@ export class Home extends Component {
                                 </div>
                                 <div className="col-lg-4 col-md-6 col-sm-12 feature-column">
                                         <div className="single-feature-content container">
-                                            <div className="icon-box"><i class="flaticon-dollar"></i></div>
-                                            <div className="link-goal"><a href="">Our Mission</a></div>
+                                            <div className="link-goal"><a href=""><span className="link-goal-span" > Our </span>Mission</a></div>
                                             <div className="text">We are to spread the gospel of Jesus Christ and to promote the knowlegge of christians through faith and truth.</div>
                                             <div className="text">To raise the moral standard of member and to encourage them to live a pure and holy life</div>
                                         
@@ -40,8 +38,7 @@ export class Home extends Component {
 
                                 <div className="col-lg-4 col-md-6 col-sm-12 feature-column">
                                     <div className="single-feature-content container">
-                                        <div className="icon-box"><i class="flaticon-dollar"></i></div>
-                                        <div className="link-goal"><a href="">Membership</a></div>
+                                        <div className="link-goal"><a href=""><span className="link-goal-span" > Member</span>ship</a></div>
                                         <div className="text">All members of the church would be encouraged to be born again christians and full of the Holy Spirit</div>
                                     
                                     </div>
@@ -53,7 +50,7 @@ export class Home extends Component {
                 </div>
 
                 {/* homepage about us code */}
-                <div className="container homePageabout" style={{color: 'black', position:'relative', paddingBottom:'30px'}}>
+                <div className="container homePageabout" style={{color: 'black', position:'relative', top:'-70px'}}>
                     <div className="row">
                         <div className="col-lg-6 col-md-12 col-sm-12 about-column">
                             <div className="homeheader"><span className="homeheader-span">About</span> us</div>
@@ -88,7 +85,7 @@ export class Home extends Component {
                 <div className="upcoming-event container-fluid text-center">
                     <div className="container">
                     <div className="container">
-                        <div className="homeheader"><span className="homeheader-span">Upcoming </span> event</div>
+                        <div className="homeheader homeheader1"><span className="homeheader-span">Upcoming </span> event</div>
                         <p>Dont miss the chance in joining us in any of our programs</p>
                     </div>
 
@@ -104,7 +101,7 @@ export class Home extends Component {
                                     <div className="card-body text-left">
                                         <div className="event-topic">
                                             <Link to='./'>2020 CHANGE EXPERIENCE CANADA CONFERENCE </Link>< br />
-                                            <span>EGLISE DU ROYAUME DU CHRIST</span>
+                                            
                                         </div>
                                         <div className="card-text event-card-text" ><span className="icon-span"><FiClock className="react-icons" /></span>
                                             7: 30PM Prompt
@@ -127,7 +124,7 @@ export class Home extends Component {
                                     <div className="card-body text-left">
                                         <div className="event-topic">
                                             <Link to='./'>HEAL THE LAND </Link>< br />
-                                            <span>EGLISE DU ROYAUME DU CHRIST</span>
+                                            
                                         </div>
                                         <div className="card-text event-card-text" ><span className="icon-span"><FiClock className="react-icons" /></span>
                                             7: 30PM Prompt
@@ -151,7 +148,7 @@ export class Home extends Component {
                                     <div className="card-body text-left">
                                         <div className="event-topic">
                                             <Link to='./'>HEAL THE LAND </Link>< br />
-                                            <span>EGLISE DU ROYAUME DU CHRIST</span>
+                                           
                                         </div>
                                         <div className="card-text event-card-text" ><span className="icon-span"><FiClock className="react-icons" /></span>
                                             7: 30PM Prompt
@@ -175,7 +172,7 @@ export class Home extends Component {
                                     <div className="card-body text-left">
                                         <div className="event-topic">
                                             <Link to='./'>HEAL THE LAND </Link>< br />
-                                            <span>EGLISE DU ROYAUME DU CHRIST</span>
+                                            
                                         </div>
                                         <div className="card-text event-card-text" ><span className="icon-span"><FiClock className="react-icons" /></span>
                                             7: 30PM Prompt
@@ -194,7 +191,7 @@ export class Home extends Component {
                 {/* code for how to help us */}
                 <section className="overlay-bg centred homedonation">
                     <div className="container text-center" style={{color:'white', padding:'20px 0px 70px 0px'}}>
-                        <div className="homeheader" style={{color: 'white'}}><span className="homeheader-span">Make </span> Donations</div>
+                        <div className="homeheader homeheader1" style={{color: 'white'}}><span className="homeheader-span">Make </span> Donations</div>
                         <div className="text">Every of your penny can help us. . Give and it shall be given unto you, good measure 
                             press down and shaking together shall men give unto your bossom.
                         </div>
@@ -204,7 +201,7 @@ export class Home extends Component {
                 {/* section part two, who to help */}
                 <section className="whotohelp" >
                     <div className="container text-center">
-                        <div className="homeheader" ><span className="homeheader-span">Who </span> to <span className="homeheader-span">Help</span></div>
+                        <div className="homeheader homeheader1" ><span className="homeheader-span">Who </span> to <span className="homeheader-span">Help</span></div>
                         <p>Your donation can go far and god bless you</p>
 
                         <div className="row whotohelprow">

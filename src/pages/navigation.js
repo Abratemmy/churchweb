@@ -28,7 +28,7 @@ export class Navigation extends Component {
         return (
             <div className="navigation">
                 <header>
-                    <div class="container">
+                    <div className="container">
                         <div className="nav-logo"><img src="" alt="not seen" class="logo"/></div> 
 
                         <div className="nav-icon-logo">

@@ -11,6 +11,15 @@
 .feature-column:hover{
     background-color: rgb(37, 37, 37);
 }
+.feature-column:hover  .link-goal-span {
+    color:white;
+}
+.single-feature-content a .link-goal-span {
+    color:rgb(37, 37, 37);
+}
+.single-feature-content a .link-goal-span:hover{
+    color:#ff5e14;
+}
 .single-feature-content{
     padding: 15% 0px 15% 0px;
     line-height: 30px;
@@ -18,11 +27,11 @@
 .single-feature-content .link-goal a{
     position: relative;
     display: inline-block;
-    font-size: 26px;
+    font-size: 40px;
     line-height: 35px;
     color: #ffffff;
     margin-bottom: 17px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 .single-feature-content .link-goal a:hover{
     text-decoration: none;
@@ -39,6 +48,9 @@
     font-weight: 700;
     margin-bottom: 35px;
     
+}
+.homeheader1{
+    padding-top: 50px;
 }
 .homeheader-span{
     color: #ff5e14;

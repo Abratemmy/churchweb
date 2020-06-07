@@ -131,7 +131,7 @@ body{
   margin-bottom: 12px;
 }
 .testimony-slide{
-  top:-170px;
+  top:-130px;
   left: 700px;
   position: relative;
   background:white;
@@ -144,7 +144,7 @@ body{
   overflow: hidden;
 }
 .sliding-testimony{
-  padding: 50px 10px 50px 10px;
+  padding: 20px 0px 50px 0px;
 }
 .sliding-testimony .text{
   line-height: 30px;
@@ -156,7 +156,7 @@ body{
 .testimonial-content  .author-info {
   position: relative;
   padding: 11px 0px 0px 91px;
-}
+} 
 
 .author-thumb{
   position: absolute;
@@ -191,7 +191,7 @@ body{
 }
 /* css for pastors gallery */
 .pastorgallery{
-  background: url('https://cdn.pixabay.com/photo/2016/01/06/22/55/the-annunciation-1125149__340.jpg');
+  background: url('https://colorlib.com/preview/theme/spring/images/bg_2.jpg');
   /* position: relative; */
   width: 100%;
   background-size: cover;
@@ -216,22 +216,18 @@ body{
   position: relative;
   margin-bottom: 30px;
 }
+.gallery-portfolio{
+  padding-bottom: 40px;
+}
 .gallery-portfolio img {
-  width: 100%;
+  /* width: 100%; */
   transform: scale(1.0);
   transition: all 5s ease;
 }
 .pastors .text {
-  position: absolute;
-  left: 0px;
-  bottom: 50px;
-  font-size: 24px;
-  font-weight: 500;
-  color: #ffffff;
-  line-height: 31px;
-  z-index: 2;
-  padding: 0px 30px 30px 40px;
-  transition: all 2000ms ease;
+  color: #222222;
+  font-size: 25px;
+  font-weight: bold;
 }
 .gallery-img-box img:hover{
   transform:scale(1.1);
@@ -242,9 +238,12 @@ body{
   overflow:hidden;
   border-radius: 50%;
 }
-.gallery-portfolio .text:hover{
-  opacity: 10;
+.gallery-img-box .pic{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
 }
+
 
 /* css for contact */
 .contact-section .contact-title {
@@ -311,7 +310,14 @@ body{
   background-position: center center;
   width:100%;
 }
-.sermon-header{
+.donation-section{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.443), rgba(0, 0, 0, 0.443)),url('https://colorlib.com/etc/charity/img/header-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width:100%;
+}
+.page-header{
   font-family: 'Playfair',serif;
   font-size: 50px;
 }
@@ -336,6 +342,32 @@ body{
 }
 .audiosermon .spanlink{
   text-decoration: none;
+}
+.slick-dots{
+  /* position: relative; */
+  top: 95%;
+}
+/* code for aboutpage  */
+ .about-us-title{
+   font-size: 30px;
+   text-align:center;
+   padding-bottom: 25px;
+ }
+.aboutpagecontent .ul .li{
+    list-style: circle;
+    
+}
+/* code for donation-section */
+.donation-section1 .account-title{
+  display: block;
+  color:#ff5e14;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px 0px 20px 0px;
+}
+.donation-section1 .account-title .account-details{
+  color: #222222;
+  padding-left: 10px;
 }
 /* .cours2{
 	margin-top:30px;

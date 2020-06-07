@@ -44,11 +44,11 @@ nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
-    float:right;
+    /* float:right; */
 }
 nav li{
     display: inline-block;
-    margin-left: 70px;
+    /* margin-left: 70px; */
     margin-left: 70px;
     padding-top: 25px;
     position: relative;
