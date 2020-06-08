@@ -47,11 +47,11 @@ export class Background extends Component {
                     return<div className="sliding-image " key={photos.id}> 
                         <img src={photos.url} width="100%" height="650" alt="error" className="bgimage"/>
                         <div className="c1style container" style={{position: 'absolute', top:'30%'}}>
-                            <div className="homeheader container backgroundtitle" style={{ color:'white', width:'100%'}}>Kingdom of <span style={{color:'#ff5e14',fontSize:'70px'}}>Christ Church </span></div>
+                            <div className="homeheader  backgroundtitle" style={{ color:'white', width:'100%'}}>Kingdom of <span style={{color:'#ff5e14',fontSize:'70px'}}>Christ Church </span></div>
                             <div className="content">
                                 <div className="slider-wrapper">
                                     
-                                    <div className="slider container">
+                                    <div className="slider">
                                         <div className="slidertext1"><span style ={{color:'#ff5e14'}}>The church</span>  of God</div> 
                                         <div className="slidertext2"><span style ={{color:'#ff5e14'}}>Where Love </span> abound</div>
                                        
